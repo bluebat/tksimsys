@@ -1,0 +1,23 @@
+10 3
+1 1 xc1 1 1
+2 1 pfw5 1 2
+2 2 ausngreen3 2 3
+3 1 suws1 1 4
+3 2 pfs8 1 22
+3 3 pfe8 1 21
+4 1 suws1 1 5
+4 2 pfe8 1 14
+4 3 pfe2 1 20
+5 1 igw1 1 6
+5 2 vse2 0 13
+5 3 pfe2 1 19
+6 1 pfw5 1 7
+6 2 pfn2 1 12
+6 3 vse2 0.01 18
+7 1 igw1 1 8
+7 3 pfe2 1 17
+8 1 pfw5 1 9
+8 2 pfn4 1 15
+8 3 pfn2 1 16
+9 1 vsw1 0.01 10
+10 1 auswblack 2 11

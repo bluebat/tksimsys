@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TkSimSys
+Comment=Simulation for Biocybernetic Systems
+Exec=tksimsys
+Terminal=false
+Type=Application
+Categories=Application;Education;Science;
+Icon=/usr/share/tksimsys/pixmaps/tksimsys.xpm

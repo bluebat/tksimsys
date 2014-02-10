@@ -1,0 +1,51 @@
+.TH TKSIMSYS 1 "February 16, 1998" "User Manuals"
+.SH NAME
+tksimsys \- Simulation for Biocybernetic Systems
+.SH SYNPOSIS
+tksimsys [
+.I options
+]
+.SH DESCRIPTION
+Tksimsys was written to offer a convenient way to build and simulate
+biocybernetic systems. From the pull-down menu you can choose an element,
+give it a value and an order. There are different input functions, conductors,
+dividers, connectors, characteristics and output channels. The value of many
+variables could be changed interactively. After start it shows the
+output curves, which could be stopped on the way or directed to standard output.
+You could also load, save, shift and print the models designed.
+
+Use the left mouse button to copy an element and it's value onto the board,
+and use the right mouse button to copy them from the board.
+
+Just load an example of model and see how it works.
+.SH OPTIONS
+.IP "-x %d                Number of X [9]"
+.IP "-y %d                Number of Y [3]"
+.IP "-t %d                Duration [100]"
+.IP "-a %f                Amplify factor [32]"
+.IP "-p %d                Number of outputs for a page [6]"
+.IP "-mddir %s            Directory of the models [tksimsys/models]"
+.IP "-bmdir %s            Directory of the bitmaps [tksimsys/bitmaps]"
+.IP "-tmpdir %s           Directory for the temporary files [/tmp]"
+.IP "-lpc %s              Command for print [ghostview -magstep -2]"
+.IP "-o %s                File name for output"
+.IP "-nov                 Don't show values"
+.IP "-noi                 Don't show the initial menu"
+.IP "-nos                 Don't use stippled lines"
+.SH FILES
+.IP "tksimsys	                        main program"
+.IP "tksimsys.1                         man page"
+.IP "bitmaps/*.bm                       bitmap-files"
+.IP "pixmaps/*tksimsys.xpm              icons for window-manager"
+.IP "models/*                           saved models"
+.IP "/tmp/ss*.tmp                       temporary files"
+.IP "/tmp/ss*.ps                        postscript file"
+.SH AUTHOR
+Wei-Lun Chao <bluebat@member.fsf.org>.
+Written at the Faculty of Biology, University of Bielefeld, Germany.
+
+tksimsys, (c) 1997,1998,2005
+
+Any suggestion about this program is welcome.
+.SH "SEE ALSO"
+.B wish(1)

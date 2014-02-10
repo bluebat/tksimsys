@@ -1,0 +1,26 @@
+GET & TRY
+---------
+https://github.com/bluebat/tksimsys
+
+	tar xvf tksimsys-*.*.tar.gz
+	cd tksimsys-*.*
+
+There should be wish4.0 or higher (http://www.scriptics.com/) and 
+better also ghostview (http://www.cs.wisc.edu/~ghost/ghostview/) installed.
+then:
+
+	wish tksimsys.tcl -- -bmdir bitmaps &
+
+
+INSTALL
+-------
+You may change something in the Makefile and tksimsys.tcl
+then type:
+
+	make
+	make install
+
+and run:
+
+	tksimsys
+

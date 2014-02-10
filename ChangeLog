@@ -1,0 +1,60 @@
+1.0	(02/21/1997)
+1.0->2.0(06/01/1997)
+	fix bugs of tzw1, tze2, pfws9, pfen6, pfwn5, pfes10, impuls, connector
+	fix bugs of pflist
+	integrate Function, Periode and output into Element and Value
+	improve the input function
+	improve the function of setting element and output
+	improve the function of printing
+	change bitmap aus to ausblack, ausblue, ausred, ausorange and ausgreen
+	add bitmaps: pfe4, pfs2, pfwn5, pfes10, pfe12, mpns1, mpns2, adns2
+	add commands: Stop, Clear, Load, Save, Shift *, About
+	add an initial menu
+	use W(*.*.f) no more
+2.0->2.1(06/04/1997)
+	fix the bug of out of board
+	add reference in README
+2.1->2.2(01/29/1998)
+	fix the bug of shift
+	change functions and bitmaps: nadel, impuls
+	add bitmaps: pfn5, pfn6, nnwn5, nnnw5, ausn*, cuws9, cuwn5
+	change bitmaps: aus* to ausw*, *green to *green3
+	set default amplitude to 1, amplify to 32
+	improve the drawing
+2.2->3.0(02/03/1998)
+        add W(*.*.o) to define the Order, no more automatic
+	      use W(*.*.k) no more
+        add function: Setting
+        change the panel
+        change the format of model
+        improve the function of shift
+        support standard output, stippled line
+        fix the bug of resizing window
+        add bitmaps: initial, snw1, sne2
+        add some examples of models
+	      change function and bitmap: nadel
+3.0->3.1(02/16/1998)
+        fix some minor bugs
+        improve the function of print, order setting
+        change label Order to button with increase
+        support duration
+        split clear all to clear model and clear graph
+        use rampe no more
+        change bitmaps: snw1, sne2
+        add middle button = right button + incr Order + left button
+        support output into a file
+	      add Makefile
+	      use color aus*
+	      change input elements to x*
+3.1->3.2(06/26/1998)
+        fix some minor bugs
+        add window icon
+3.2->3.3(09/12/2005)
+        change '-comm' to '-command'
+        change some settings of relief
+        first release at http://rt.openfoundry.org/Foundry/Project/index.html?Queue=408
+        delete Makefile
+3.3->3.4(12/30/2008)
+	change some settings of relief
+	remove initial menu
+	initial rpm package
