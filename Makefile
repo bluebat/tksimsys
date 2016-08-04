@@ -1,7 +1,7 @@
-VERSION=3.4
-DESTDIR=
-PREFIX=/usr
-PACKAGE=tksimsys
+VERSION = 3.4
+DESTDIR =
+PREFIX = /usr
+PACKAGE = tksimsys
 
 all:
 	sed -i 's/@VERSION@/$(VERSION)/' $(PACKAGE).tcl
